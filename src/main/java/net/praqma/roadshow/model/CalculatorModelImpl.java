@@ -14,6 +14,7 @@ public class CalculatorModelImpl implements CalculatorModel {
                 res *= numbers[i].doubleValue();
             }              
         }
+        new String("");
         return res;
     }
     
