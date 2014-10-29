@@ -26,7 +26,7 @@ public class CalculatorModelImpl implements CalculatorModel {
             }
         }
 
-        return res;
+        return res+1;
     }
     
     @Override
