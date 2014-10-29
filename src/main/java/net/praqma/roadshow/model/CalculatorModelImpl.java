@@ -9,7 +9,7 @@ public class CalculatorModelImpl implements CalculatorModel {
             if(numbers[i] == null && i==0) {
                 continue;
             } else if(numbers[i].doubleValue() == 0d && i==0) {
-                return 0d;
+                return 0d
             } else {
                 res *= numbers[i].doubleValue();
             }              
