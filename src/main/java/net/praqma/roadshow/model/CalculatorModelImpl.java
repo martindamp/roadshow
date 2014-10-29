@@ -14,8 +14,7 @@ public class CalculatorModelImpl implements CalculatorModel {
                 res *= numbers[i].doubleValue();
             }              
         }
-        String s = new String(Double.toString(res));
-        return Double.parseDouble(s);
+        return Double.parseDouble(res);
     }
     
     @Override
