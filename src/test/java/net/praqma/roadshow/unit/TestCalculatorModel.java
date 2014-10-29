@@ -26,7 +26,7 @@ public class TestCalculatorModel {
         assertEquals(5d, numberOrigin, 0d);
 
         Double numberBothOk = model.multiply(new Double(2),new Double(5)).doubleValue();
-        //assertEquals(10d, numberBothOk, 0d);
+        assertEquals(10d, numberBothOk, 0d);
     }
     
     @Test
